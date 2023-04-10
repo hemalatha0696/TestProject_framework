@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+	<testdata>
+		<Runmode>Y</Runmode>
+			<Name>URL</Name>
+			<URL>https://www.redbus.in/</URL>
+			<Homeoperator>(//a[normalize-space()="All Operators >"])[1]</Homeoperator>
+			<Directory>https://www.redbus.in/travels/operators-directory/</Directory>
+			<Operators_list>{ "//ul[@class='D112_ul']//li" }</Operators_list>
+			<operatorPage>//ul[@class="D112_ul"]//li//a</operatorPage>
+			<I_operator>//li[@class='D113_item']</I_operator>
+			<I_operator_pages>//div[@class='D113_pagination']//a</I_operator_pages>
+			<R_operator_pages>//div[@class='D113_pagination']//a</R_operator_pages> 
+			<R_operator>(//li[@class='D113_item'])</R_operator>
+			<A_operator_pages>//div[@class='D113_pagination']//a</A_operator_pages> 
+			<A_operator>(//li[@class='D113_item'])</A_operator>
+	</testdata>
+</Rows>
